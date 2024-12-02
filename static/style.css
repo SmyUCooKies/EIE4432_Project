@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+}
+
+.navbar-nav {
+  margin: auto; /* Center the nav buttons */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Logo size */
+}
+
+.nav-link {
+  color: #999999;
+  font-weight: bold;
+}
+
+/* .bi-person-circle {
+  font-size: 1.5rem;
+} */
+
+/* Tabs Styles */
+.day-tabs {
+  background-color: #444;
+  padding: 10px 0;
+  border-bottom: 1px solid #555;
+}
+
+.day-tabs .nav-link {
+  color: #ffffff;
+  margin: 0 5px;
+}
+
+.day-tabs .nav-link.active {
+  background-color: #d9534f;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Movie Grid Styles */
+.movie-container {
+  margin-top: 30px;
+}
+
+.movie-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.movie-poster {
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.movie-poster:hover {
+  transform: scale(1.05);
+}
+
+/* Movie List Styles */
+.movie-list {
+  margin-top: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.movie-title-large {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.movie-times {
+  margin-top: 15px;
+}
+
+.time-slot {
+  margin: 0 10px 10px 0;
+  background-color: #666;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.time-slot:hover {
+  background-color: #d9534f;
+  color: #fff;
+}
